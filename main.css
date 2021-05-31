@@ -9,21 +9,41 @@
 body {
 	font-family: 'Runescape';
 	font-size: 1.4em;
+	color: #ffff00;
+	background-color: #121212;
+	max-width: 50%;
+	margin: auto;
 }
 h2, h3, b {
 	font-family: 'RunescapeBold';
 }
 
-.nav-bar {
-	width: 50%;
-	align-items: center;
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	position: relative;
 }
 
-.nav-bar-item {
+li {
+	float: left;
+}
+
+li button {
+	display: block;
+	border: none;
+	color: #ffff00;
+	text-align: center;
+	padding: 0.5em 0.7em;
+	text-decoration: none;
+	background-color: #121212;
 	font-family: 'Runescape';
 	font-size: 1.5em;
+	color: #ffff00;
+	background-color: #121212;
 }
 
-.tab {
-
+li button:hover {
+	background-color: #000;
 }
