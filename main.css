@@ -10,10 +10,20 @@ body {
 	font-family: 'Runescape';
 	font-size: 1.4em;
 }
-.button {
-	text-decoration: none;
-	font-family: 'Runescape';
-}
-.h2, .b {
+h2, h3, b {
 	font-family: 'RunescapeBold';
+}
+
+.nav-bar {
+	width: 50%;
+	align-items: center;
+}
+
+.nav-bar-item {
+	font-family: 'Runescape';
+	font-size: 1.5em;
+}
+
+.tab {
+
 }
