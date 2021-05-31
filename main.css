@@ -1,0 +1,19 @@
+@font-face {
+	font-family: 'Runescape';
+	src: url('RuneScape-Plain-12.otf');
+}
+@font-face {
+	font-family: 'RunescapeBold';
+	src: url('RuneScape-Bold-12.otf');
+}
+body {
+	font-family: 'Runescape';
+	font-size: 1.4em;
+}
+.button {
+	text-decoration: none;
+	font-family: 'Runescape';
+}
+.h2, .b {
+	font-family: 'RunescapeBold';
+}
