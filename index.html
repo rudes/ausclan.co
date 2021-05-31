@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Australia OSRS</title>
+	<script type="text/javascript">
+		function openTab(tabName) {
+  			var i;
+  			var x = document.getElementsByClassName("tab");
+  			for (i = 0; i < x.length; i++) {
+    			x[i].style.display = "none";
+  			}
+  			document.getElementById(tabName).style.display = "block";
+		}
+	</script>
+	<style>
+		@font-face {
+			font-family: 'Runescape';
+			src: url('RuneScape-Plain-12.otf');
+		}
+		@font-face {
+			font-family: 'RunescapeBold';
+			src: url('RuneScape-Bold-12.otf');
+		}
+		body {
+			font-family: 'Runescape';
+			font-size: 1.4em;
+		}
+		.button {
+			text-decoration: none;
+			font-family: 'Runescape';
+		}
+		.h2, .b {
+			font-family: 'RunescapeBold';
+		}
+	</style>
+</head>
+<body>
+	<div class="nav-bar">
+		<button class="nav-bar-item" onclick="openTab('Main')">Main</button>
+		<button class="nav-bar-item" onclick="openTab('Apply')">Apply</button>
+		<button class="nav-bar-item" onclick="openTab('Discord')">Discord</button>
+	</div>
+	<div id="Main" class="tab">
+		<h2>Welcome</h2>
+		<p>Australia is one of the largest Australian and New Zealand based community<br>
+		clan chat. We're a friendly and welcoming clan who love a bit of banter while<br>
+		engaging in High level PvM, and Social content.<br>
+		<br>
+		Weekly Social events across PvM, PvP, Skilling and many other areas. Don't feel like you<br>
+		need to be a god at PvM or PvP to join us. If you enjoy a chill atmosphere and are<br>
+		keen to learn Corp, CoX, ToB, Nightmare and more, we're the clan for you.</p>
+		<h3>Home world</h3>
+		<p>532</p>
+	</div>
+	<div id="Apply" class="tab" style="display: none">
+		<h2>Welcome</h2>
+		<p>Join Discord or the Chat Channel <b>Aus Osr</b></p>
+		<p>There are no requirements to hang out in our clan or come to our public events.<br>
+		For specific rank requirements please see our Discord.</p>
+	</div>
+	<div id="Discord" class="tab" style="display: none">
+		<h2>Welcome</h2>
+		<p>discord.gg/australia</p>
+	</div>
+</body>
+</html>
