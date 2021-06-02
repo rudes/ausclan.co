@@ -1,0 +1,6 @@
+bot:
+    build: .
+    restart: always
+    volumes:
+        - '/var/log:/var/log'
+        - '/var/storage:/var/storage'

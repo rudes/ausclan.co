@@ -6,7 +6,20 @@
 	font-family: 'RunescapeBold';
 	src: url('fonts/RuneScape-Bold-12.otf');
 }
+
+.banner {
+	width: 100%;
+	background-image: url(images/clanbanner.png);
+	background-size: auto;
+	height: 450px;
+	background-position: center;
+}
+
 body {
+	background-color: #121212;
+	margin: 0;
+}
+.body {
 	font-family: 'Runescape';
 	font-size: 1.4em;
 	color: #ffff00;
@@ -46,4 +59,8 @@ li button {
 
 li button:hover {
 	background-color: #000;
+}
+
+a:link, a:visited {
+	text-decoration: none;
 }
