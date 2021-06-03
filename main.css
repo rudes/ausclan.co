@@ -9,11 +9,22 @@
 
 .banner {
 	width: 100%;
-	background-image: url(images/clanbanner.png);
-	background-size: contain;
+	background-image: url(images/clanbannerbg.png);
+	background-size: cover;
 	height: 450px;
 	background-position: center;
 	background-repeat: no-repeat;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+img {
+	margin: auto;
+	display: flex;
+	max-width: 80%;
+	height: 50%;
 }
 
 body {
