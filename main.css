@@ -10,9 +10,10 @@
 .banner {
 	width: 100%;
 	background-image: url(images/clanbanner.png);
-	background-size: auto;
+	background-size: contain;
 	height: 450px;
 	background-position: center;
+	background-repeat: no-repeat;
 }
 
 body {
