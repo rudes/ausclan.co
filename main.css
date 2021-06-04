@@ -2,6 +2,7 @@
 	font-family: 'Runescape';
 	src: url('fonts/RuneScape-Plain-12.otf');
 }
+
 @font-face {
 	font-family: 'RunescapeBold';
 	src: url('fonts/RuneScape-Bold-12.otf');
@@ -24,21 +25,27 @@ img {
 	margin: auto;
 	display: flex;
 	max-width: 80%;
-	height: 50%;
+	height: 40%;
 }
 
-body {
-	background-color: #121212;
+html,body {
+	background-color: #3b3b3b;
 	margin: 0;
+	height: 100%;
 }
+
 .body {
 	font-family: 'Runescape';
 	font-size: 1.4em;
 	color: #ffff00;
-	background-color: #121212;
+	background-color: #2e2e2e;
 	max-width: 50%;
+	height: 100%;
 	margin: auto;
+	padding: 10px;
+	box-shadow: 15px 0px 10px 1px #000, -15px 0px 10px 1px #000;
 }
+
 h2, h3, b {
 	font-family: 'RunescapeBold';
 }
@@ -62,11 +69,10 @@ li button {
 	text-align: center;
 	padding: 0.5em 0.7em;
 	text-decoration: none;
-	background-color: #121212;
 	font-family: 'Runescape';
 	font-size: 1.5em;
 	color: #ffff00;
-	background-color: #121212;
+	background-color: #2e2e2e;
 }
 
 li button:hover {
