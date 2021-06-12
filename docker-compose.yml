@@ -1,10 +1,20 @@
 version: "3.9"
+
 services:
- website:
-  build: .
-  ports:
-   - "8080:80"
-  restart: always
-  volumes:
-   - '/var/log:/var/log'
-   - '/var/storage:/var/storage'
+
+    website:
+        build: .
+        restart: always
+        networks:
+            - web
+        volumes:
+            - '/var/log:/var/log'
+            - '/var/storage:/var/storage'
+        labels:
+            - traefik.enable=true
+            - traefik.http.routers.ausclanco.entrypoints=web
+            - traefik.http.routers.ausclanco.rule=Host("ausclan.rudes.me")
+
+networks:
+    web:
+        external: true
